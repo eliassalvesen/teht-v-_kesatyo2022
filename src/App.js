@@ -70,7 +70,7 @@ const App = () => {
       ) : (
         "No tasks to show"
       )}
-      <Button onClick={organize} text="Laajattele A-Ö" color="blue" />
+      <Button onClick={organize} text="Laajittele A-Ö" color="blue" />
       <Button onClick={deleteAllTasks} text="Poista kaikki" color="red" />
     </div>
   );
